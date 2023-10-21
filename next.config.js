@@ -6,7 +6,4 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/examples/landing" : "/",
 };
