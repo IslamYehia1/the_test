@@ -33,15 +33,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="h-full h-screen">
-        <NextSeo
-          title="Craft.js"
-          description="A React framework for building drag-n-drop page editors."
-          canonical="https://craft.js.org/"
-          twitter={{
-            site: "craft.js.org",
-            cardType: "summary_large_image",
-          }}
-        />
+        <NextSeo title="A test demo" description="A drag and drop concept" />
         <Editor
           resolver={{
             Container,
